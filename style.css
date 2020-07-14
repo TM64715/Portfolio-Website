@@ -1,10 +1,12 @@
 
 
-@media only screen and  (max-width: 900px) {
+@media only screen and  (max-width: 600px) {
 
 	body {
 
 		background-color: #F8F8F8;
+		font-family: Roboto;\
+		margin-top: 0px;
 
 	}
 
@@ -14,6 +16,7 @@
 		background-color: #00A9FF;
 		margin-left: 0px;
 		width: auto;
+
 	}
 
 
@@ -25,7 +28,49 @@
 		color: #EBF8FF;
 		text-shadow: 1px 1px #FFC5F3;
 		text-align: center;
+		background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+		background-size: 400% 400%;
+		animation: gradient 15s ease infinite;
+		
+	}
+
+	.aboutme {
+		background-color: #D5D5D5;
+		float: left;
+		height: 500px;
+		width: 50%;
+		font-size: .9em;
+		font-family: Montserrat;
+		
+		
+
+
 	}
 
 
+	.aboutme-text {
+
+		line-height: 150%;
+		font-family: Roboto;
+	}
+	.about-me-picture {
+
+		float: right;
+		margin: 10px;
+
+	}
+
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+
 }
+
+
