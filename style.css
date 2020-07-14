@@ -1,0 +1,31 @@
+
+
+@media only screen and  (max-width: 900px) {
+
+	body {
+
+		background-color: #F8F8F8;
+
+	}
+
+
+	.navbar {
+
+		background-color: #00A9FF;
+		margin-left: 0px;
+		width: auto;
+	}
+
+
+	.nav-list {
+		list-style: none;
+		font-family: Montserrat;
+		font-size: 1em;
+		padding: 10px;
+		color: #EBF8FF;
+		text-shadow: 1px 1px #FFC5F3;
+		text-align: center;
+	}
+
+
+}
