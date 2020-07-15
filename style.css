@@ -1,10 +1,10 @@
 
 
-@media only screen and  (max-width: 600px) {
+@media /*only screen and  */(max-width: 600px) {
 
 	body{
 
-		background-color:;
+		background-color: #3a393b;
 		font-family: Roboto;\
 		margin-top: 0px;
 
@@ -36,7 +36,7 @@
 	.aboutme-1 {
 		background-color: red;
 	}
-	.aboutme-text-big {
+	.aboutme-text-big,.abt-me {
 
 		padding-top: 50px;
 		padding-bottom: 50px;
@@ -58,6 +58,10 @@
 	.aboutme-text {
 		text-align: left;
 		margin: 10px;
+		color: #f5f5f5;
+		background-color: #575659;
+		padding: 20px;
+		margin-bottom: 20px;
 
 	}
 
@@ -65,6 +69,20 @@
 
 		float: right;
 		margin: 10px;
+
+	}
+	.abt-me {
+		font-size: 3em;
+		margin-bottom: 20px;
+	}
+	.aboutme-text-1 {
+
+		text-align: left;
+		margin-top: 5px;
+		color: white;
+		background-color: #575659;
+		padding: 20px;
+		margin-bottom: 20px;
 
 	}
 
