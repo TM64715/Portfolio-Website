@@ -116,7 +116,7 @@
 
 	}
 	.col-2 {
-		float: right;
+		/* float: center; */
 		margin-top: 215px;
 	}
 	.image-abtme {
