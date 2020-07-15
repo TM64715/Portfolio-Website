@@ -1,6 +1,155 @@
 
 
-@media /*only screen and  */(max-width: 1200px) {
+@media only screen and (max-width: 600px) {
+
+		body{
+
+			background-color: #3a393b;
+			font-family: Roboto;\
+			margin-top: 0px;
+
+		}
+
+
+		.navbar {
+
+			/* background-color: #00A9FF; */
+			margin-left: 0px;
+			width: auto;
+
+		}
+
+
+		.nav-list {
+			list-style: none;
+			/* font-family: Montserrat;
+			font-size: 1em; */
+			padding: 20px;
+			/* color: #EBF8FF; */
+			/* text-shadow: 1px 1px #FFC5F3;
+			text-align: center; */
+			background-color: #08AEEA;
+			background-image: linear-gradient(19deg, #08AEEA 0%, #2AF598 33%, #60e6d7 66%, #dd76ff 100%);
+			background-size: 150% 150%;
+			border-radius: 10px;
+
+		}
+
+		.navbar-item {
+			font-family: Montserrat;
+			font-size: 1.5em;
+			color: #EBF8FF;
+			text-shadow: 1px 1px #FFC5F3;
+			text-align: center;
+		}
+
+		.navbar-item-2, .navbar-item-2 a{
+
+			font-family: Montserrat;
+			font-size: .9em;
+			color: #383838;
+			text-shadow: 1.7px 1.7px #FFC5F3;
+			text-align: center;
+			text-decoration: none;
+
+		}
+		.aboutme-text-big,.abt-me {
+
+			padding-top: 50px;
+			padding-bottom: 50px;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-align: center;
+			vertical-align: 50%;
+			background-color: #08AEEA;
+			 font-size: 3em;
+			 border: 5px solid #3a393b;
+			 background: -webkit-linear-gradient(19deg, #08AEEA 0%, #2AF598 33%, #60e6d7 66%, #dd76ff 100%);
+			 -webkit-background-clip: text;
+			 -webkit-text-fill-color: transparent;
+			background-size: 200% 200%;
+			animation: gradient 5s infinite;
+
+		}
+
+		.aboutme-text {
+			text-align: left;
+			margin: 10px;
+			color: #2AF598;
+			background-color: #575659;
+			padding: 20px;
+			margin-bottom: 20px;
+			/* text-shadow: 1.6px 1.6px #08AEEA; */
+
+		}
+
+		.about-me-picture {
+
+			float: right;
+			margin: 10px;
+
+		}
+		.abt-me {
+			font-size: 3em;
+			margin-bottom: 20px;
+		}
+		.aboutme-text-1 {
+
+			text-align: left;
+			margin-top: 5px;
+			color: #dd76ff;
+			background-color: #575659;
+			padding: 20px;
+			margin-bottom: 20px;
+			margin-right: 10px;
+
+
+		}
+		.col-1 {
+			float: left;
+
+		}
+		.col-2 {
+			float: right;
+			margin-top: 215px;
+		}
+		.image-abtme {
+
+			margin-top:50px;
+			width: 100%;
+			margin: auto;
+			display: block;
+
+
+		}
+
+		img.img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.hero-image {
+			background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) url(Images/soccer.jpeg);
+			height: auto;
+			width: auto;
+		}
+
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+
+	}
+}
+
+
+@media only screen and (min-width: 600px) {
 
 	body{
 
@@ -13,7 +162,7 @@
 
 	.navbar {
 
-		background-color: #00A9FF;
+		/* background-color: #00A9FF; */
 		margin-left: 0px;
 		width: auto;
 
@@ -31,8 +180,7 @@
 		background-color: #08AEEA;
 		background-image: linear-gradient(19deg, #08AEEA 0%, #2AF598 33%, #60e6d7 66%, #dd76ff 100%);
 		background-size: 150% 150%;
-
-
+		border-radius: 10px;
 
 	}
 
@@ -57,7 +205,7 @@
 	.aboutme-text-big,.abt-me {
 
 		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-bottom: 30px;
 		padding-left: 20px;
 		padding-right: 20px;
 		text-align: center;
@@ -75,12 +223,12 @@
 
 	.aboutme-text {
 		text-align: left;
-		margin: 10px;
+		margin: 10px 50px 20px 50px;
 		color: #2AF598;
 		background-color: #575659;
 		padding: 20px;
-		margin-bottom: 20px;
 		/* text-shadow: 1.6px 1.6px #08AEEA; */
+		border-radius: 20px;
 
 	}
 
@@ -97,13 +245,11 @@
 	.aboutme-text-1 {
 
 		text-align: left;
-		margin-top: 5px;
+		margin: 5px 50px 10px 50px;
 		color: #dd76ff;
 		background-color: #575659;
 		padding: 20px;
-		margin-bottom: 20px;
-		margin-right: 10px;
-
+		border-radius: 20px;
 
 	}
 	.col-1 {
@@ -128,6 +274,12 @@
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		padding-top: 30px;
+	}
+	.hero-image {
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) url(Images/soccer.jpeg);
+		height: auto;
+		width: auto;
 	}
 
 	@keyframes gradient {
@@ -141,4 +293,5 @@
 			background-position: 0% 50%;
 		}
 
+}
 }
