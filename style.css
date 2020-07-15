@@ -2,9 +2,9 @@
 
 @media only screen and  (max-width: 600px) {
 
-	body {
+	body{
 
-		background-color: #F8F8F8;
+		background-color:;
 		font-family: Roboto;\
 		margin-top: 0px;
 
@@ -28,31 +28,39 @@
 		color: #EBF8FF;
 		text-shadow: 1px 1px #FFC5F3;
 		text-align: center;
-		background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-		background-size: 400% 400%;
-		animation: gradient 15s ease infinite;
+		background-color: #08AEEA;
+		background-image: linear-gradient(19deg, #08AEEA 0%, #2AF598 33%, #60e6d7 66%, #dd76ff 100%);
+		background-size: 150% 150%;
 		
 	}
+	.aboutme-1 {
+		background-color: red;
+	}
+	.aboutme-text-big {
 
-	.aboutme {
-		background-color: #D5D5D5;
-		float: left;
-		height: 500px;
-		width: 50%;
-		font-size: .9em;
-		font-family: Montserrat;
-		
-		
-
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+		vertical-align: 50%;
+		background-color: #08AEEA;
+		 font-size: 3em;
+		 border: 5px solid #3a393b;
+		 background: -webkit-linear-gradient(19deg, #08AEEA 0%, #2AF598 33%, #60e6d7 66%, #dd76ff 100%);
+		 -webkit-background-clip: text;
+		 -webkit-text-fill-color: transparent;
+		background-size: 200% 200%;
+		animation: gradient 5s infinite;
 
 	}
-
 
 	.aboutme-text {
+		text-align: left;
+		margin: 10px;
 
-		line-height: 150%;
-		font-family: Roboto;
 	}
+
 	.about-me-picture {
 
 		float: right;
