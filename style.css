@@ -31,11 +31,9 @@
 		background-color: #08AEEA;
 		background-image: linear-gradient(19deg, #08AEEA 0%, #2AF598 33%, #60e6d7 66%, #dd76ff 100%);
 		background-size: 150% 150%;
-		
+
 	}
-	.aboutme-1 {
-		background-color: red;
-	}
+
 	.aboutme-text-big,.abt-me {
 
 		padding-top: 50px;
@@ -83,7 +81,16 @@
 		background-color: #575659;
 		padding: 20px;
 		margin-bottom: 20px;
+		width: 150px;
 
+	}
+	.col-1 {
+		float: left;
+
+	}
+	.col-2 {
+		float: right;
+		margin-top: 215px;
 	}
 
 	@keyframes gradient {
@@ -98,5 +105,3 @@
 		}
 
 }
-
-
