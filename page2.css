@@ -46,6 +46,17 @@
 		text-align: center;
 	}
 
+  .navbar-item-2, .navbar-item-2 a{
+
+    font-family: Montserrat;
+		font-size: .9em;
+		color: #383838;
+		text-shadow: 1.7px 1.7px #FFC5F3;
+		text-align: center;
+    text-decoration: none;
+
+  }
+
 
   .aboutme-text-big, .abt-me {
 
@@ -74,6 +85,7 @@
 		background-color: #D2D2D2;
 		padding: 20px;
 		margin-bottom: 20px;
+    text-shadow: 1px 1px #FFC5F3;
 
 	}
 
@@ -96,6 +108,7 @@
 		padding: 20px;
 		margin-bottom: 20px;
 		width: 200px;
+    text-shadow: 1px 1px #FEE140;
 
 	}
 	.col-1 {

@@ -44,7 +44,16 @@
 		text-align: center;
 	}
 
+	.navbar-item-2, .navbar-item-2 a{
 
+		font-family: Montserrat;
+		font-size: .9em;
+		color: #383838;
+		text-shadow: 1.7px 1.7px #FFC5F3;
+		text-align: center;
+		text-decoration: none;
+
+	}
 	.aboutme-text-big,.abt-me {
 
 		padding-top: 50px;
@@ -67,10 +76,11 @@
 	.aboutme-text {
 		text-align: left;
 		margin: 10px;
-		color: #f5f5f5;
+		color: #2AF598;
 		background-color: #575659;
 		padding: 20px;
 		margin-bottom: 20px;
+		/* text-shadow: 1.6px 1.6px #08AEEA; */
 
 	}
 
@@ -88,7 +98,7 @@
 
 		text-align: left;
 		margin-top: 5px;
-		color: white;
+		color: #dd76ff;
 		background-color: #575659;
 		padding: 20px;
 		margin-bottom: 20px;
