@@ -22,17 +22,28 @@
 
 	.nav-list {
 		list-style: none;
-		font-family: Montserrat;
-		font-size: 1em;
-		padding: 10px;
-		color: #EBF8FF;
-		text-shadow: 1px 1px #FFC5F3;
-		text-align: center;
+		/* font-family: Montserrat;
+		font-size: 1em; */
+		padding: 20px;
+		/* color: #EBF8FF; */
+		/* text-shadow: 1px 1px #FFC5F3;
+		text-align: center; */
 		background-color: #08AEEA;
 		background-image: linear-gradient(19deg, #08AEEA 0%, #2AF598 33%, #60e6d7 66%, #dd76ff 100%);
 		background-size: 150% 150%;
 
+
+
 	}
+
+	.navbar-item {
+		font-family: Montserrat;
+		font-size: 1.5em;
+		color: #EBF8FF;
+		text-shadow: 1px 1px #FFC5F3;
+		text-align: center;
+	}
+
 
 	.aboutme-text-big,.abt-me {
 
@@ -81,7 +92,7 @@
 		background-color: #575659;
 		padding: 20px;
 		margin-bottom: 20px;
-		width: 150px;
+		width: 200px;
 
 	}
 	.col-1 {
@@ -91,6 +102,10 @@
 	.col-2 {
 		float: right;
 		margin-top: 215px;
+	}
+	.image-abtme {
+
+		margin-top:50px;
 	}
 
 	@keyframes gradient {
