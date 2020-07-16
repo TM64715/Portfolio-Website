@@ -5,8 +5,14 @@
 		body{
 
 			background-color: #3a393b;
-			font-family: Roboto;\
+			font-family: Roboto;
 			margin-top: 0px;
+			background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("Images/waves.jpeg");
+			background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  position: relative;
+
 
 		}
 
@@ -80,6 +86,7 @@
 			padding: 20px;
 			margin-bottom: 20px;
 			/* text-shadow: 1.6px 1.6px #08AEEA; */
+			border-radius: 20px;
 
 		}
 
@@ -102,6 +109,7 @@
 			padding: 20px;
 			margin-bottom: 20px;
 			margin-right: 10px;
+			border-radius: 20px;
 
 
 		}
@@ -156,6 +164,7 @@
 		background-color: #3a393b;
 		font-family: Roboto;\
 		margin-top: 0px;
+
 
 	}
 
